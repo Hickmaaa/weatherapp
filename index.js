@@ -9,5 +9,6 @@ function changeCity() {
     h1.innerHTML = "🥵 " + " <br> Currently " + temperature + "°C in " + city;
   }
 }
+
 let changeCityButton = document.querySelector("button");
 changeCityButton.addEventListener("click", changeCity);
